@@ -17,7 +17,18 @@ namespace MyFirstWebApp.Controllers
         //[Route("[action]")]
         public ViewResult Index() // IActionResult
         {
-            return View();
+
+            List<Student> listStudents = new List<Student>()
+            {
+               new Student() { StudentId = 101, Name = "James", Branch = "CSE", Section = "A", Gender = "Male" },
+               new Student() { StudentId = 102, Name = "Smith", Branch = "ETC", Section = "B", Gender = "Male" },
+               new Student() { StudentId = 103, Name = "David", Branch = "CSE", Section = "A", Gender = "Male" },
+               new Student() { StudentId = 104, Name = "Sara", Branch = "CSE", Section = "A", Gender = "Female" },
+               new Student() { StudentId = 105, Name = "Pam", Branch = "ETC", Section = "B", Gender = "Female" }
+            };
+
+             
+            return View(listStudents);
             //return "Index() Action Method of HomeController";
         }
 
@@ -34,10 +45,11 @@ namespace MyFirstWebApp.Controllers
         }
 
         //[Route("[action]")]
-        public ViewResult Details()
+        public ViewResult Details(int Id)
         {
             //return "Details() Action Method of HomeController, ID Value = " + id;
-            return View();
+            var studentDetails = new Student() { StudentId = Id, Name = "James", Branch = "CSE", Section = "A", Gender = "Male" };
+            return View(studentDetails);
         }
 
 

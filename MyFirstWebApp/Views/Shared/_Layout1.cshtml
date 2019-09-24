@@ -1,8 +1,10 @@
 ﻿<!DOCTYPE html>
-<html>
+@*<html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/MyCustomStyleSheet.css" rel="stylesheet" />
 </head>
 <body>
     <table border="1" style="width:800px; font-family:Arial">
@@ -27,4 +29,16 @@
     </table>
     @RenderSection("Scripts", false)
 </body>
-</html>
+</html>*@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/MyCustomStyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        @RenderBody()
+    </div>
+</body>

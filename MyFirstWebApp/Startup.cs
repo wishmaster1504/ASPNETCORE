@@ -60,8 +60,8 @@ namespace MyFirstWebApp
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            app.UseHttpsRedirection();*/
+            app.UseStaticFiles(); /*
             app.UseCookiePolicy();
 
             app.UseMvc(routes =>

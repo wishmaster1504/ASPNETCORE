@@ -32,3 +32,5 @@ F:\GitHub\ASPNETCORE\MyFirstWebApp\obj\Debug\netcoreapp2.2\Razor\Views\Student\D
 F:\GitHub\ASPNETCORE\MyFirstWebApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
 F:\GitHub\ASPNETCORE\MyFirstWebApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout1.g.cshtml.cs
 F:\GitHub\ASPNETCORE\MyFirstWebApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Details.g.cshtml.cs
+F:\GitHub\ASPNETCORE\MyFirstWebApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\_ViewStart.g.cshtml.cs
+F:\GitHub\ASPNETCORE\MyFirstWebApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_MyLayout.g.cshtml.cs

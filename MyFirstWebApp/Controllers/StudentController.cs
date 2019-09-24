@@ -10,7 +10,7 @@ namespace MyFirstWebApp.Controllers
 {
     public class StudentController : Controller
     {
-        [Route("Student/Details")]
+        //[Route("Student/Details")]
         public ViewResult Details()
         {
             ViewBag.Title = "Student Details Page";
